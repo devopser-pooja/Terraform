@@ -7,7 +7,7 @@ source ="./modules/vpc"
 }
 terraform {
   backend "s3" {
-    bucket = "cdecb36-bucket007"
+    bucket = "cdecb36-bucket008"
     key    = "demo/terraform.tfstate"
     region = "eu-west-2"
     dynamodb_table = "my-terra-table780-7"
